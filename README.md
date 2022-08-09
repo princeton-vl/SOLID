@@ -2,7 +2,7 @@
 
 Code for reproducing the results in the following paper:
 
-[Label-Free Synthetic Pretraining of Object Detectors]()  
+[Label-Free Synthetic Pretraining of Object Detectors](https://arxiv.org/abs/2208.04268)  
 Hei Law, Jia Deng  
 arXiv, 2022
 
