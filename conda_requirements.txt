@@ -1,0 +1,5 @@
+zarr
+blenderproc==2.2.0
+opencv-python
+scikit-image
+setuptools==59.5.0

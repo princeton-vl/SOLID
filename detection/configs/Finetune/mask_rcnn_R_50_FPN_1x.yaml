@@ -1,0 +1,14 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "Path to pre-trained weights"
+  MASK_ON: True
+  RESNETS:
+    NORM: "SyncBN"
+    DEPTH: 50
+  FPN:
+    NORM: "SyncBN"
+  PIXEL_MEAN: '[103.530, 116.280, 123.675]'
+  PIXEL_STD: '[57.375, 57.120, 58.395]'
+TEST:
+  PRECISE_BN:
+    ENABLED: True
